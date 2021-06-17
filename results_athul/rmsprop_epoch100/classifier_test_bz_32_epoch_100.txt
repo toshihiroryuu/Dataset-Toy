@@ -1,0 +1,28 @@
+Model          : classifier_loss_bz_32_epoch_100.h5
+Batch_size     : 32
+Learning rate  : 0.001
+Optimizer      : rmsprop
+Epochs         : /100
+
+Training Accuracy    : 1.0
+Validation Accuracy  : 0.6060606241226196
+Training_loss        : 0.003688095137476921
+Validation Loss      : 1.7643581628799438
+
+Confusion Matrix
+[[6 2 0 1]
+ [1 8 0 0]
+ [0 0 5 4]
+ [0 1 4 4]]
+
+Classification Report
+              precision    recall  f1-score   support
+
+   aeroplane       0.86      0.67      0.75         9
+ barbie doll       0.73      0.89      0.80         9
+         car       0.56      0.56      0.56         9
+       train       0.44      0.44      0.44         9
+
+    accuracy                           0.64        36
+   macro avg       0.65      0.64      0.64        36
+weighted avg       0.65      0.64      0.64        36
